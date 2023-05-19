@@ -1,0 +1,138 @@
+body{
+    background-image: url(fon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: whitesmoke;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    min-width: 90%;
+    margin: auto;
+    max-width: 1300px;
+}
+ol{
+    list-style-type: none;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: start;
+min-height: 100px;
+padding: 0px 50px ;
+}
+header li{
+    display: inline;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+h2{
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(181, 5, 40);
+}
+.row{
+    display: flex;
+    max-height: 500px;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.s1 img{
+    width: 23%;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.text{
+    margin-top: 50px;
+    background-color: rgba(184, 184, 184, 0.113);
+}
+.karta{
+    width: 600px;
+    height: 300px;
+}
+
+.s3 img{
+width: 320px;
+height: 100px;
+border: 3px solid red;
+}
+
+footer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+.foot1{
+    display: inline;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: rgba(110, 8, 150, 0.548);
+    text-align: start;
+}
+.foot2{
+    display: inline;
+    height: 450px;
+    width: 600px;
+    display: inline;
+    border-radius: 35px;
+}
+label{
+    display: block;
+    margin: 5px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    border-bottom: 1px solid;
+    color: rgb(159, 4, 167);
+    
+}
+#podpis{
+    color: rgb(173, 7, 244);
+}
+@media (max-width:800px){
+.s1 img{
+    max-height: 120px;
+   width: 25%;
+}
+header li{
+    display: block;
+}
+.s3 img{
+    display: block;
+}
+.s4{
+    flex-direction: column;
+    
+}
+.s4 img{
+    width: 83%;
+    height: 60%;
+}
+}
+
+@media (max-width:500px){
+header li{
+    display: block;
+}
+.s3 img{
+    display: block;
+}
+}
+
+
+
+
